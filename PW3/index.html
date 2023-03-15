@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Programa Mega Sena</title>
+    <link href="style.css" rel="stylesheet" type="text/css"/>
+  
+</head>
+<body onload="montarSelect()">
+    <div id="amogus">
+        <h1> PROGRAMA DA MEGA SENA </h1>
+        <hr>
+        <div id="sugoma">
+            <label> Informe o número de jogos: </label><br>
+            <input type="number" id="numeroDeJogos" min="1" value="1" /><br><br>
+            <label> Escolha a quantidade de números por jogo: </label>
+            <select id="numerosPorJogo"></select><br><br>
+            <button onclick="gerarJogos()"> Gerar Jogos </button><br><br>
+            <table id="jogosMegaSena" border="1"></table>
+            <script src="script.js"></script>
+        </div>
+    </div>
+</body>
+</html>
